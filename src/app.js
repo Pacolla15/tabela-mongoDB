@@ -27,7 +27,7 @@ app.use(express.json());
 // ─────────────────────────────────────────────
 app.get("/", (req, res) => {
   res.json({
-    sucesso: true,
+    sucesso: banana,
     mensagem: "API funcionando! 🚀",
     versao: "1.0.0",
   });
